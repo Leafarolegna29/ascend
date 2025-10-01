@@ -1,94 +1,324 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Angelo Rafael Araujo Brandao</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #0d0d0d;
-      color: #f5f5f5;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 20px;
-    }
-
-    .logo img {
-      width: 150px;
-      height: auto;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-      color: #ff3c3c;
-    }
-
-    p {
-      font-size: 1rem;
-      margin: 5px 0;
-      color: #d1d1d1;
-    }
-
-    .contact-info {
-      margin: 20px 0;
-    }
-
-    .btn-whatsapp {
-      display: inline-block;
-      padding: 14px 28px;
-      margin-top: 20px;
-      font-size: 1.1rem;
-      font-weight: bold;
-      text-decoration: none;
-      color: white;
-      background: linear-gradient(135deg, #25d366, #128c7e);
-      border-radius: 8px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-
-    .btn-whatsapp:hover {
-      transform: scale(1.05);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
-    }
-
-    footer {
-      margin-top: 40px;
-      font-size: 0.9rem;
-      color: #888;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelo Rafael Araujo Brandao - Produtos Educacionais Cristãos</title>
+    <meta name="description" content="Transforme o ensino bíblico com nossos produtos educacionais cristãos. Dinâmicas, estudos devocionais e kits infantis com entrega digital imediata. Fundamentado na Palavra de Deus.">
+    <meta property="og:title" content="Angelo Rafael Araujo Brandao - Produtos Educacionais Cristãos">
+    <meta property="og:description" content="Transforme o ensino bíblico com nossos produtos educacionais cristãos. Dinâmicas, estudos devocionais e kits infantis com entrega digital imediata.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="https://i.ibb.co/S7G8HMpt/Chat-GPT-Image-1-de-out-de-2025-01-20-06.png" alt="Angelo Rafael Logo">
+                </div>
+                <nav class="desktop-nav">
+                    <a href="#hero" class="nav-link">Início</a>
+                    <a href="#produtos" class="nav-link">Produtos</a>
+                    <a href="#beneficios" class="nav-link">Benefícios</a>
+                    <a href="#sobre" class="nav-link">Sobre</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#hero" class="mobile-nav-link">Início</a>
+            <a href="#produtos" class="mobile-nav-link">Produtos</a>
+            <a href="#beneficios" class="mobile-nav-link">Benefícios</a>
+            <a href="#sobre" class="mobile-nav-link">Sobre</a>
+            <a href="#contato" class="mobile-nav-link">Contato</a>
+        </div>
+    </header>
 
-  <div class="logo">
-    <img src="https://i.ibb.co/S7G8HMpt/Chat-GPT-Image-1-de-out-de-2025-01-20-06.png" alt="Logo da empresa">
-  </div>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Transforme o Ensino Bíblico com 
+                        <span class="text-primary">Recursos Educacionais</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Produtos educacionais cristãos de qualidade, fundamentados na Palavra de Deus, 
+                        para fortalecer sua igreja, família e ministério.
+                    </p>
+                    <a href="https://wa.me/5592993933643" target="_blank" class="btn btn-primary btn-lg">
+                        <i class="fas fa-message"></i>
+                        📲 Fale Conosco no WhatsApp
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1472162314584-c156e34cebb5?w=800&h=600&fit=crop" alt="Família estudando a Bíblia juntos">
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <h1>Angelo Rafael Araujo Brandao</h1>
+    <!-- Products Section -->
+    <section id="produtos" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Produtos</h2>
+                <p class="section-subtitle">Materiais cuidadosamente elaborados para edificar vidas e fortalecer a fé</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=400&fit=crop" alt="Dinâmicas Cristãs">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Dinâmicas Cristãs</h3>
+                        <p class="product-description">Atividades interativas e envolventes para grupos de todas as idades, perfeitas para cultos, células e eventos.</p>
+                        <div class="product-details">
+                            <div class="product-badge">
+                                <i class="fas fa-file-pdf"></i>
+                                PDF Digital
+                            </div>
+                            <div class="product-info">
+                                <i class="fas fa-bolt"></i>
+                                Entrega imediata por WhatsApp/E-mail
+                            </div>
+                            <div class="product-info">
+                                <i class="fas fa-check-circle"></i>
+                                Material completo com instruções detalhadas
+                            </div>
+                        </div>
+                        <p class="product-footer">Entre em contato para mais informações e valores</p>
+                    </div>
+                </div>
 
-  <div class="contact-info">
-    <p><strong>CNPJ:</strong> 45.104.883/0001-18</p>
-    <p><strong>Telefone:</strong> (92) 99393-3643</p>
-    <p><strong>Email:</strong> arab001ads@gmail.com</p>
-    <p><strong>Endereço:</strong> Rua Doutor Ernesto Adolfo, 02 - Cidade Nova 02 - Manaus/AM</p>
-  </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop" alt="Estudos e Devocionais">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Estudos e Devocionais</h3>
+                        <p class="product-description">Material bíblico aprofundado para crescimento espiritual individual e em grupo, com aplicações práticas.</p>
+                        <div class="product-details">
+                            <div class="product-badge">
+                                <i class="fas fa-file-pdf"></i>
+                                PDF Digital
+                            </div>
+                            <div class="product-info">
+                                <i class="fas fa-bolt"></i>
+                                Entrega em até 24h após pagamento
+                            </div>
+                            <div class="product-info">
+                                <i class="fas fa-check-circle"></i>
+                                Conteúdo fundamentado nas Escrituras
+                            </div>
+                        </div>
+                        <p class="product-footer">Entre em contato para mais informações e valores</p>
+                    </div>
+                </div>
 
-  <a href="https://wa.me/5592993933643" class="btn-whatsapp" target="_blank">
-    📲 Fale Conosco no WhatsApp
-  </a>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&h=400&fit=crop" alt="Kits Infantis">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Kits Infantis</h3>
+                        <p class="product-description">Recursos lúdicos e educativos para ensinar a Palavra de Deus às crianças de forma criativa e memorável.</p>
+                        <div class="product-details">
+                            <div class="product-badge">
+                                <i class="fas fa-file-pdf"></i>
+                                PDF Digital + Recursos Visuais
+                            </div>
+                            <div class="product-info">
+                                <i class="fas fa-bolt"></i>
+                                Entrega em até 24h após pagamento
+                            </div>
+                            <div class="product-info">
+                                <i class="fas fa-check-circle"></i>
+                                Materiais prontos para impressão e uso
+                            </div>
+                        </div>
+                        <p class="product-footer">Entre em contato para mais informações e valores</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    © 2025 - Angelo Rafael Araujo Brandao
-  </footer>
+    <!-- Benefits Section -->
+    <section id="beneficios" class="benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Por Que Escolher Nossos Produtos?</h2>
+                <p class="section-subtitle">Qualidade, praticidade e compromisso com a Palavra de Deus</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="benefit-title">Fundamentado na Bíblia</h3>
+                    <p class="benefit-description">Todo conteúdo é baseado nas Escrituras Sagradas, garantindo ensinamentos fiéis à Palavra de Deus.</p>
+                </div>
 
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-book-bible"></i>
+                    </div>
+                    <h3 class="benefit-title">Simples e Acessível</h3>
+                    <p class="benefit-description">Materiais práticos e fáceis de usar, adaptados para diferentes faixas etárias e contextos.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="benefit-title">Entrega Digital</h3>
+                    <p class="benefit-description">Receba seus materiais instantaneamente por e-mail, prontos para usar imediatamente.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="benefit-title">Suporte Atencioso</h3>
+                    <p class="benefit-description">Atendimento dedicado para tirar dúvidas e ajudar você a aproveitar ao máximo nossos produtos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&h=800&fit=crop" alt="Angelo Rafael Araujo Brandao">
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Sobre Nós</h2>
+                    <div class="about-text">
+                        <p>Somos dedicados a transformar vidas através da educação cristã de qualidade. Nossa missão é fornecer recursos que fortaleçam a fé e promovam o crescimento espiritual em todas as fases da vida.</p>
+                        <p>Cada produto é desenvolvido com cuidado, fundamentado nas Escrituras Sagradas e testado na prática ministerial. Acreditamos que a Palavra de Deus tem poder para transformar vidas quando apresentada de forma clara, criativa e relevante.</p>
+                        <p>Nosso compromisso é servir igrejas, famílias e educadores cristãos com excelência, oferecendo materiais que facilitam o ensino bíblico e inspiram pessoas a viverem segundo os princípios de Cristo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Estamos prontos para atendê-lo e esclarecer suas dúvidas</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-form-card">
+                    <h3 class="card-title">Envie uma Mensagem</h3>
+                    <p class="card-subtitle">Preencha o formulário e retornaremos em breve</p>
+                    <form id="contactForm" class="contact-form">
+                        <input type="text" name="name" placeholder="Seu Nome" required>
+                        <input type="email" name="email" placeholder="Seu E-mail" required>
+                        <textarea name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                        <div class="opt-in-notice">
+                            <i class="fas fa-info-circle"></i>
+                            Ao enviar este formulário, você autoriza o contato e concorda com nossa 
+                            <a href="politica-privacidade.html">Política de Privacidade</a>. 
+                            Você pode cancelar o recebimento de comunicações a qualquer momento.
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+
+                <div class="whatsapp-card">
+                    <h3 class="card-title-light">Fale Direto no WhatsApp</h3>
+                    <p class="card-subtitle-light">Atendimento rápido e personalizado</p>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <p class="info-label">Telefone:</p>
+                            <p>(92) 99393-3643</p>
+                        </div>
+                        <div class="info-item">
+                            <p class="info-label">E-mail:</p>
+                            <p>arab001ads@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <p class="info-label">Endereço:</p>
+                            <p>Rua Doutor Ernesto Adolfo, 02<br>Cidade Nova 02 - Manaus/AM</p>
+                        </div>
+                        <div class="info-item">
+                            <p class="info-label">Horário de Atendimento:</p>
+                            <p>Segunda a Sexta: 09h às 18h</p>
+                        </div>
+                    </div>
+                    <div class="opt-in-notice-light">
+                        <i class="fas fa-info-circle"></i>
+                        Ao entrar em contato via WhatsApp, você autoriza o recebimento de mensagens e concorda com nossos termos.
+                    </div>
+                    <a href="https://wa.me/5592993933643" target="_blank" class="btn btn-secondary btn-block">
+                        <i class="fab fa-whatsapp"></i>
+                        📲 Abrir WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">Informações</h3>
+                    <p>Angelo Rafael Araujo Brandao</p>
+                    <p>CNPJ: 45.104.883/0001-18</p>
+                    <p>Rua Doutor Ernesto Adolfo, 02</p>
+                    <p>Cidade Nova 02 - Manaus/AM</p>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Contato</h3>
+                    <p>Tel: (92) 99393-3643</p>
+                    <p>E-mail: arab001ads@gmail.com</p>
+                    <p>Segunda a Sexta: 09h às 18h</p>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Políticas e Termos</h3>
+                    <a href="politica-privacidade.html" class="footer-link">Política de Privacidade</a>
+                    <a href="termos-uso.html" class="footer-link">Termos de Uso</a>
+                    <a href="politica-reembolso.html" class="footer-link">Política de Reembolso</a>
+                    <a href="politica-entrega.html" class="footer-link">Política de Entrega</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p class="company-name">ANGELO RAFAEL ARAUJO BRANDAO - 45.104.883/0001-18</p>
+                    <p class="copyright">© <span id="currentYear"></span> Todos os direitos reservados</p>
+                </div>
+                <div class="footer-disclaimer">
+                    <p>Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas do produto e usar resultados reais. Não vendemos seu e-mail ou qualquer informação para terceiros. Jamais fazemos spam. Se você tiver alguma dúvida, sinta-se à vontade para usar o link de contato e falar conosco no horário comercial da Segunda a Sexta, das 09h às 18h. Lemos e respondemos todas as mensagens por ordem de chegada.</p>
+                </div>
+                <div class="footer-copyright">
+                    <p class="company-name">ANGELO RAFAEL ARAUJO BRANDAO - 45.104.883/0001-18</p>
+                    <p class="copyright">© <span id="currentYear2"></span> Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
